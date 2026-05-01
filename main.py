@@ -24,7 +24,7 @@ ADMIN_IDS = [
     int(os.environ.get('ADMIN_ID_3', '0')),
     int(os.environ.get('ADMIN_ID_4', '0')),
     int(os.environ.get('ADMIN_ID_5', '0')),
-    int(os.environ.get('OWNER_ID', '7559289812')),
+    int(os.environ.get('OWNER_ID', '0')),
 ]
 ADMIN_IDS = [aid for aid in ADMIN_IDS if aid != 0]
 
