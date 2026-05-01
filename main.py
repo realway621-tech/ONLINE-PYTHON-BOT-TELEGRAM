@@ -33,7 +33,7 @@ ADMIN_USERNAME = "RED_EAGLE888"
 ADMIN_DISPLAY_NAME = "💞 SENUxCHEATS 💞"
 
 # 🔴 Channel Mandatory Settings
-REQUIRED_CHANNEL = "https://t.me/eagle_src"
+REQUIRED_CHANNEL = "https://t.me/eaglecheats888"
 REQUIRED_CHANNEL_ID = -1003436802716
 
 BASE_DIR = os.path.join(os.getcwd(), "hosted_projects")
