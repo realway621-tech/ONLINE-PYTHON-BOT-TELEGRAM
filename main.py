@@ -16,7 +16,7 @@ from telegram import ReplyKeyboardMarkup, KeyboardButton, Update, InlineKeyboard
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
 # --- [ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ] ---
-TOKEN = os.environ.get('BOT_TOKEN', '8787262370:AAH8zAkF-QrNHi2lJlS_icC2VZtGaGXbdcY')
+TOKEN = os.environ.get('BOT_TOKEN', '8787262370:AAEnKM6BkGFJx6WFO2XkWNRp5ixaJOzdn1c')
 
 ADMIN_IDS = [
     int(os.environ.get('ADMIN_ID_1', '7559289812')),
