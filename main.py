@@ -30,10 +30,10 @@ ADMIN_IDS = [aid for aid in ADMIN_IDS if aid != 0]
 
 PRIMARY_ADMIN_ID = ADMIN_IDS[0] if ADMIN_IDS else 7559289812
 ADMIN_USERNAME = "RED_EAGLE888"
-ADMIN_DISPLAY_NAME = "💞 **SENUxCHEATS** 💞"
+ADMIN_DISPLAY_NAME = "💞 SENUxCHEATS 💞"
 
 # 🔴 Channel Mandatory Settings
-REQUIRED_CHANNEL = "HTTPS://T.ME/EAGLE_SRC"
+REQUIRED_CHANNEL = "https://t.me/eagle_src"
 REQUIRED_CHANNEL_ID = -1003436802716
 
 BASE_DIR = os.path.join(os.getcwd(), "hosted_projects")
