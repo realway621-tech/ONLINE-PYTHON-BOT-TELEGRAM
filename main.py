@@ -34,7 +34,7 @@ ADMIN_DISPLAY_NAME = "💞 **SENUxCHEATS** 💞"
 
 # 🔴 Channel Mandatory Settings
 REQUIRED_CHANNEL = "HTTPS://T.ME/EAGLE_SRC"
-REQUIRED_CHANNEL_ID = -1003634522050
+REQUIRED_CHANNEL_ID = -1003436802716
 
 BASE_DIR = os.path.join(os.getcwd(), "hosted_projects")
 PORT = int(os.environ.get('PORT', 8080))
@@ -234,7 +234,7 @@ async def require_channel_join(update: Update, context: ContextTypes.DEFAULT_TYP
             [InlineKeyboardButton("📢 Join Channel", url=REQUIRED_CHANNEL)],
             [InlineKeyboardButton("✅ I have joined", callback_data="check_join")]
         ]
-        msg = "⚠️ **You must join our official channel to use this bot!**\n\n1. Click the button below to join.\n2. After joining, click 'I have joined'."
+        msg = "⚠️ **You must join our official channel to use this bot!**\n\n1. Click the button Below to join.\n2. After joining, click 'I have joined'."
         if update.message:
             await update.message.reply_text(msg, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode='Markdown')
         elif getattr(update, 'callback_query', None):
